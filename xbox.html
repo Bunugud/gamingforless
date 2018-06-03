@@ -7,7 +7,7 @@ body {margin:0;}
  
 .topnav {
   overflow: hidden;
-  background-color: red;
+  background-color: 61A2C1;
 }
  
 .topnav a {
@@ -54,15 +54,50 @@ body {margin:0;}
 </style>
 </head>
 <body>
-<div class="topnav" id="myTopnav">
- <img src="https://docs.google.com/drawings/d/e/2PACX-1vT0OXYxzxHypFuW2H8S1gS89mIoCuEfVnI2x3c3z0oGtmM3hEZClDupRbneQjDdJ_rGEBGyxeL2Na7V/pub?w=960&h=720" height=100px width=100px>
+ <head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  
+  <div class="column">
+    <img src="https://docs.google.com/drawings/d/e/2PACX-1vT0OXYxzxHypFuW2H8S1gS89mIoCuEfVnI2x3c3z0oGtmM3hEZClDupRbneQjDdJ_rGEBGyxeL2Na7V/pub?w=960&h=720" alt="Forest" style="width:50%">
+  </div>
+ <div class="column">
+    <img src="http://r52.cooltext.com/rendered/cooltext288551384552580.png" alt="Fjords" style="width:200%">
+  </div>
+</div>
+
+</body>
+ <div class="topnav" id="myTopnav">
  <a href="./index.html">Home</a>
   <a href="./ps4.html">PS4</a>
   <a href="./xbox.html">Xbox</a>
   <a href="./pc.html">PC Equipment</a>
   <a href="./.html"></a>
   <a href="./.html"></a>
+
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+ 
  </div>
 <div style="padding-left:16px">
 </div>
